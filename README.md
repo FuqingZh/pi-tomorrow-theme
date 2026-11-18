@@ -12,16 +12,20 @@ A port of all five [Tomorrow themes by Chris Kempson][upstream] for Pi.
 
 ## Install
 
-Install from GitHub using Pi:
+Install from npm using Pi:
+
+```sh
+pi install npm:pi-tomorrow-theme
+```
+
+Or install directly from GitHub:
 
 ```sh
 pi install git:github.com/FuqingZh/pi-tomorrow-theme
 ```
 
-Restart Pi or run `/reload`, then pick a variant in **/settings → Theme**.
-
-The npm release is pending. Once published, `pi install npm:pi-tomorrow-theme`
-will be an alternative to the GitHub install.
+Choose one source. Restart Pi or run `/reload`, then pick a variant in
+**/settings → Theme**.
 
 ## Try from a checkout
 

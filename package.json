@@ -3,6 +3,10 @@
   "version": "0.2.0",
   "description": "Chris Kempson's Tomorrow Theme, ported to Pi.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuqingZh/pi-tomorrow-theme.git"
+  },
   "keywords": [
     "pi-package",
     "pi",

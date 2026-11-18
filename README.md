@@ -1,8 +1,6 @@
 # Tomorrow Theme for Pi
 
-A theme-only port of all five [Chris Kempson Tomorrow themes][upstream],
-verified with Pi 1.5.2. The package contains no extension code and does not
-change prompts, Markdown, or sessions.
+A port of all five [Tomorrow themes by Chris Kempson][upstream] for Pi.
 
 | Variant | Pi theme name | Matching terminal background |
 | --- | --- | --- |
@@ -12,6 +10,19 @@ change prompts, Markdown, or sessions.
 | Tomorrow Night Blue | `tomorrow-night-blue` | `#002451` |
 | Tomorrow Night Bright | `tomorrow-night-bright` | `#000000` |
 
+## Install
+
+Install from GitHub using Pi:
+
+```sh
+pi install git:github.com/FuqingZh/pi-tomorrow-theme
+```
+
+Restart Pi or run `/reload`, then pick a variant in **/settings → Theme**.
+
+The npm release is pending. Once published, `pi install npm:pi-tomorrow-theme`
+will be an alternative to the GitHub install.
+
 ## Try from a checkout
 
 ```sh
@@ -19,10 +30,7 @@ pi --theme ./themes --use-theme tomorrow-night-eighties
 ```
 
 Run the command from the repository root. Replace `tomorrow-night-eighties`
-with any theme name above. This does not change your saved theme. For a saved
-local installation, copy the JSON files into `~/.pi/agent/themes/` (or the
-`themes/` directory under your `PI_CODING_AGENT_DIR`) and choose one under
-**/settings → Theme**.
+with any theme name above. This does not change your saved theme.
 
 For the original appearance, match the truecolor terminal background in the
 table, especially when using the light Tomorrow variant. The Pi theme colors

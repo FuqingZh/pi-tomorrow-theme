@@ -1,0 +1,21 @@
+{
+  "name": "pi-tomorrow-theme",
+  "version": "0.2.0",
+  "description": "Chris Kempson's Tomorrow Theme, ported to Pi.",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "theme",
+    "tomorrow-theme"
+  ],
+  "files": [
+    "themes",
+    "docs"
+  ],
+  "pi": {
+    "themes": [
+      "./themes"
+    ]
+  }
+}

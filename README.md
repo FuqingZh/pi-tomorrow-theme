@@ -1,6 +1,12 @@
 # Tomorrow Theme for Pi
 
+English · [简体中文](README.zh-CN.md)
+
 A port of all five [Tomorrow themes by Chris Kempson][upstream] for Pi.
+
+**Minimum supported Pi version: 0.99.0.** Older versions may load the base
+colors but do not honor the theme's declared light or dark appearance. See
+[Pi version compatibility](docs/reference/pi-compatibility.md).
 
 | Variant | Pi theme name | Matching terminal background |
 | --- | --- | --- |

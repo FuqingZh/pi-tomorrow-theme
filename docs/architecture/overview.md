@@ -1,8 +1,9 @@
 # Architecture
 
-Version 0.2 includes all five upstream Tomorrow variants, verified on Pi 1.5.2.
-The package changes how Pi draws its interface, not assistant Markdown, prompts,
-tools, or session contents.
+Version 0.2 includes all five upstream Tomorrow variants. The minimum supported
+version is [Pi 0.99.0](../reference/pi-compatibility.md). The package changes
+how Pi draws its interface, not assistant Markdown, prompts, tools, or session
+contents.
 
 ## Theme and package
 

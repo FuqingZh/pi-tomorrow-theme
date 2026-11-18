@@ -15,7 +15,8 @@
   ],
   "files": [
     "themes",
-    "docs"
+    "docs",
+    "README.zh-CN.md"
   ],
   "pi": {
     "themes": [
